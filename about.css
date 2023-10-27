@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@200;300;400;500&family=Varela&family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  position: sticky;
+  top: 0;
+
+  background-color: rgb(250, 247, 247);
+}
+.header-tabs .tabs {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-tabs .tabs li a {
+  margin-left: 60px;
+  margin-right: 60px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.688);
+}
+.header .name {
+  font-size: 2em;
+  margin-left: 20px;
+} 
+/* Css For Section two*/
+
+.section-one{
+
+  height: 50vh;
+  padding: 20px;
+}
+.section-one h4{
+  margin: 10px;
+}
+.section-one h2{
+  color: gold;
+  font-size: 40px;
+}
+.section-one ol {
+  margin-left: 30px;
+}
+
+/* Css For Section-two*/
+
+.project img{
+  width:300px ;
+  height: 300px;
+  margin: 20px;
+}
+.Project-Wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content:space-between; 
+  margin-top: 20px; 
+ 
+}
+.section-two {
+  margin: 10px;
+}
+.section-two h2{
+  color: gold;
+  font-size: 40px;
+  padding: 20px;
+  
+}
